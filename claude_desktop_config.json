@@ -3,7 +3,7 @@
     "MyLocalMCP": {
       "command": "python3",
       "args": [
-        "/Users/rohitp/Scripts/fastmcp/server.py"
+        "/Users/rohitp/Scripts/fastmcp/mcp_server.py"
       ],
       "type": "stdio",
 			"env": {
