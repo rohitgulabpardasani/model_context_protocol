@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "MyLocalMCP": {
+      "command": "python3",
+      "args": [
+        "/Users/rohitp/Scripts/fastmcp/server.py"
+      ],
+      "type": "stdio",
+			"env": {
+				"CISCO_HOST": "10.0.0.51",
+				"CISCO_USERNAME": "admin",
+				"CISCO_PASSWORD": "C1sc0123!",
+				"CISCO_PORT": "22"
+			}
+    }
+  }
+}
