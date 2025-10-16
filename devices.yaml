@@ -1,0 +1,14 @@
+devices:
+  R51:
+    host: 10.0.0.51
+    username: admin
+    password: C1sc0123!
+    secret: C1sc0123!   # optional
+    port: 22             # optional, defaults to 22
+  R52:
+    host: 10.0.0.52
+    username: admin
+    password: C1sc0123!
+    secret: C1sc0123!   # optional
+    port: 22             # optional, defaults to 22
+
