@@ -1,17 +1,15 @@
 {
   "mcpServers": {
-    "MyLocalMCP": {
-      "command": "python3",
+    "cisco-mcp": {
+      "command": "/usr/bin/env",
       "args": [
-        "/Users/rohitp/Scripts/fastmcp/mcp_server.py"
+        "python3",
+        "/Users/rohitp/model_context_protocol/mcp_server.py",
+        "--inventory",
+        "/Users/rohitp/model_context_protocol/devices.yaml"
       ],
-      "type": "stdio",
-			"env": {
-				"CISCO_HOST": "10.0.0.51",
-				"CISCO_USERNAME": "admin",
-				"CISCO_PASSWORD": "C1sc0123!",
-				"CISCO_PORT": "22"
-			}
+      "env": {},
+      "workingDirectory": "/Users/rohitp/model_context_protocol/"
     }
   }
 }
